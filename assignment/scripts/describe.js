@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we initialize a variable called name and set it to Dane
+// then we write a conditional to check if varible name is EXACTLY Mary.
+// Name does not exactly match Mary, so we console log "How do you do?"
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize a variable called 'secret', and a variable called 'code' and set it to 123.
+// Then we write a conditional to check if variable 'code' is 123. If true, variable 'secret' is set to "super"
+// and variable 'code' is set to multiply itself by 2.
+// Then we write another conditional to check if variable 'code' is less than 250. It is, so variable 'secret' 
+// is set to "duper". Then we console log "duper".
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize three variables 'isStudent', 'age', and 'zip' and set them to true, 34, and 55407 respectively.
+// Then we write a compound conditional, first to check if 'isStudent' is true ALONG WITH 'zip' being greater than 80000.
+// It isn't, so then we check if 'isStudent' is false OR 'age' is less than 30. They aren't, so then we simply check if 'isStudent'
+// is true. It is, so we console log "Welcome to Prime!"
 
 //CODE
 /*
@@ -130,12 +131,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne should be set to 'blue'. colorTwo should be set to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //FIX - colorTwo should also be set to 'purple'.
 }
 */
 
@@ -145,6 +148,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX - 'time' should be set as a variable using [let], not [const]
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -160,7 +164,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX (maybe) - This technically works, but could be clearer using 'age >= minAge', to better fit description.
 if(minAge <= age) {
+  //FIX - 'if' code block and 'else' code block need to be swapped so 'if' block console logs "enter"
   console.log('no entry');
 } else {
   console.log('enter');
