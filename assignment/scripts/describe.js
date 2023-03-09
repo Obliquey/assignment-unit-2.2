@@ -48,8 +48,8 @@ if (name === 'Mary') {
 // We initialize a variable called 'secret', and a variable called 'code' and set it to 123.
 // Then we write a conditional to check if variable 'code' is 123. If true, variable 'secret' is set to "super"
 // and variable 'code' is set to multiply itself by 2.
-// Then we write another conditional to check if variable 'code' is less than 250. It is, so variable 'secret' 
-// is set to "duper". Then we console log "duper".
+// Then we write another conditional to check if variable 'code' is less than 250. It isn't, so the codeblock doesn't run.
+// Lastly we console.log variable secret, which outputs 'super'.
 
 //CODE
 /*
@@ -143,7 +143,7 @@ if (mix === true) {
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 OR if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
 /*
